@@ -28,6 +28,6 @@ return {
     -- ["<esc>"] = false,
   },
   i = {
-    ["<C-a>"] = { "copilot#Accept(<Tab>)", silent = true, expr = true, script = true },
+    ["<C-a>"] = { "copilot#Accept(<Tab>)", noremap = true, silent = true, expr = true, script = true, replace_keycodes = false },
   },
 }
